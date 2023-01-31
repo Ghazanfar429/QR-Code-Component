@@ -1,0 +1,57 @@
+/* ------- General-Section -------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #d5e1ef;
+  color: hsl(228, 45%, 44%);
+}
+
+main {
+  margin: 7% auto;
+}
+
+.container {
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+/* ------- Image-Section -------- */
+
+.img-section {
+  margin-top: 15px;
+  padding: 0 15px;
+}
+
+.img {
+  max-width: 270px;
+  height: 270px;
+  border-radius: 10px;
+}
+
+/* ------- Text-Section -------- */
+
+.text-section {
+  text-align: center;
+  padding: 25px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 15px;
+}
+
+.info {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+}
